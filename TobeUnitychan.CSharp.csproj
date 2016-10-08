@@ -76,7 +76,9 @@
     <Compile Include="Assets\Script\Scores.cs" />
     <Compile Include="Assets\Script\bunnton2.cs" />
     <Compile Include="Assets\Script\button.cs" />
+    <Compile Include="Assets\Script\button3.cs" />
     <Compile Include="Assets\Script\controller.cs" />
+    <Compile Include="Assets\Script\updown.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />

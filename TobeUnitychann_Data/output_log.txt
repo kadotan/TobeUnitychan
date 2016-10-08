@@ -4,22 +4,22 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
     Vendor:   Intel
-    VRAM:     2111 MB
+    VRAM:     1126 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.056 seconds
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\kaoru\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.111 seconds
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\marina0401\Documents\TobeUnitychan\TobeUnitychann_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
