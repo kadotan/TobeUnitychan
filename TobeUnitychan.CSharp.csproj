@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Assets\ObstacleController.cs" />
     <Compile Include="Assets\Script\Camera.cs" />
+    <Compile Include="Assets\Script\GameClear.cs" />
     <Compile Include="Assets\Script\GameOver.cs" />
     <Compile Include="Assets\Script\HeartController.cs" />
     <Compile Include="Assets\Script\Manual.cs" />
