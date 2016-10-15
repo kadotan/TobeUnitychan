@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
@@ -35,8 +36,7 @@ public class controller : MonoBehaviour
     {
 
         currentHealth = startingHealth;
-        Rigidbody rigidbody = GetComponent<Rigidbody>();
-        rigidbody.velocity = transform.up * speed;
+       
 
     }
 
@@ -47,14 +47,10 @@ public class controller : MonoBehaviour
     {
 
         Rigidbody rigidbody = GetComponent<Rigidbody>();
-
+        
         float z = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
-
-
-
-        // xとyにspeedを掛ける
         rigidbody.AddForce(0, y * speed, 0);
 
         Vector3 movement = new Vector3(0.0f, y, z);
@@ -65,8 +61,6 @@ public class controller : MonoBehaviour
 
             Mathf.Clamp(rigidbody.position.z, boundary.zMin, boundary.zMax)
             );
-
-
     }
 
     void OnCollisionEnter(Collision hit)
@@ -81,16 +75,18 @@ public class controller : MonoBehaviour
             GetComponent<AudioSource>().Play();
             healthSlider.value = currentHealth;
 
-            Invoke("Call1", 0.01f);
-            Invoke("Call2", 0.01f);
 
-            if (currentHealth <= 0)
-            {
-                SceneManager.LoadScene("GameOver");
-            }
+            //gameObject.layer = LayerMask.NameToLayer("PlayerDamage");
+
+            //StartCoroutine(DamageEffectMethod(3.0f, () =>
+            //{
+               
+            //    gameObject.layer = LayerMask.NameToLayer("Player");
+            //}));
 
         }
-    }
+    
+}
 
     void OnTriggerEnter(Collider hit)
     {
@@ -98,15 +94,9 @@ public class controller : MonoBehaviour
         if (hit.CompareTag("Heart"))
         {
 
-
             currentHealth += cure;
 
-
-
-
             Scores.score += scoreValue;
-
-
 
             healthSlider.value = currentHealth;
 
@@ -122,15 +112,15 @@ public class controller : MonoBehaviour
         }
     }
 
-    void Call1()
+
+   
+    public IEnumerator DamageEffectMethod(float waitTime, Action action)
     {
-        player.SetActive(false);
+        yield return new WaitForSeconds(waitTime);
+        action();
     }
 
-    void Call2()
-    {
-        player.SetActive(true);
-
-
-    }
 }
+
+
+
