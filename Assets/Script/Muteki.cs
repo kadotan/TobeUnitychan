@@ -23,6 +23,15 @@ public class Muteki : MonoBehaviour
     public IEnumerator DamageEffectMethod(float waitTime, Action action)
     {
         yield return new WaitForSeconds(waitTime);
+        foreach (Transform child in transform)
+        {
+            //child is your child transform
+            child.GetComponent<Renderer>();
+
+
+
+        }
+
         action();
     }
 }
